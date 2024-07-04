@@ -1,0 +1,35 @@
+@media (max-width:500px){
+    .card{
+        width: 350px;
+    }
+
+    .question{
+        width: 230px;
+    }
+
+    .icon-plus,
+    .icon-minus{
+        position: absolute;
+        right: 27px;
+        width: 30px;
+    }
+
+}
+
+@media (max-width:375px){
+
+    .img-desk{
+        display: none;
+    }
+
+    .img-mobile{
+        display: block;
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        margin-top: 0;
+        overflow: hidden;
+    }
+
+}
